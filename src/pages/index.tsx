@@ -2,7 +2,7 @@
 import Head from "next/head";
 import { BRAND } from "../../data/consts";
 import { ChakraProvider } from "@chakra-ui/react";
-import { NavBar } from "@/components/uiComponents/navbar";
+import NavBar from "@/components/uiComponents/navbar";
 import Pricing from "@/components/pricing";
 import theme from "@/styles/chakraTheme";
 import Hero from "@/components/hero";

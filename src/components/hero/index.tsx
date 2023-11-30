@@ -45,6 +45,8 @@ const Hero = () => {
     <>
       <Container maxW={"3xl"}>
         <Stack
+          height="90vh"
+          justifyContent="center"
           as={Box}
           textAlign={"center"}
           spacing={{ base: 8, md: 14 }}
@@ -52,7 +54,7 @@ const Hero = () => {
         >
           <Heading
             fontWeight={600}
-            fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
+            fontSize={{ base: "4xl", sm: "4xl", md: "6xl" }}
             lineHeight={"110%"}
           >
             {selectedText.FIXED} <br />

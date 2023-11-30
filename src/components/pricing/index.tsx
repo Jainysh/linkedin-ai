@@ -4,7 +4,7 @@ import PricingContainer from "../uiComponents/pricingContainer";
 const Pricing = () => {
   return (
     <Box py={12}>
-      <VStack spacing={2} textAlign="center">
+      <VStack spacing={2} padding={4} textAlign="center">
         <Heading as="h1" fontSize="4xl">
           We are free until we figure out our pricing.
         </Heading>
